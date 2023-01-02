@@ -10,17 +10,17 @@ const Signup = () => {
 	const navigate = useNavigate()
 	const { signUp } = UserAuth()
 
-	const handleSubmit = async (e) => {
-		e.preventDefault()
-		setError('')
-		try {
-			await signUp(email, password)
-			navigate('/account')
-		} catch (e) {
-			setError(e.message)
-			console.log(e.message)
-		}
-	}
+	// const handleSubmit = async (e) => {
+	// 	e.preventDefault()
+	// 	setError('')
+	// 	try {
+	// 		await signUp(email, password)
+	// 		navigate('/account')
+	// 	} catch (e) {
+	// 		setError(e.message)
+	// 		console.log(e.message)
+	// 	}
+	// }
 
 	return (
 		<div>
