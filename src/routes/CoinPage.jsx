@@ -38,9 +38,9 @@ const CoinPage = () => {
 						<p>7 Day</p>
 					</div>
 					<div>
-						{/* <Sparklines data={coin.market_data?.sparkline_7d.price}>
+						<Sparklines data={coin.market_data?.sparkline_7d.price}>
 							<SparklinesLine color="teal" />
-						</Sparklines> */}
+						</Sparklines>
 					</div>
 					<div className="flex justify-between py-4">
 						<div>

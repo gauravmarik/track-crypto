@@ -38,7 +38,7 @@ const Signin = () => {
 							<AiOutlineMail className="absolute right-2 top-3 text-gray-400" />
 						</div>
 					</div>
-					{/* <div className="my-4">
+					<div className="my-4">
 						<label>Password</label>
 						<div className="my-2 w-full relative rounded-2xl shadow-xl">
 							<input
@@ -48,7 +48,7 @@ const Signin = () => {
 							/>
 							<AiFillLock className="absolute right-2 top-3 text-gray-400" />
 						</div>
-					</div> */}
+					</div>
 					<button className="w-full my-2 p-3 bg-button text-btnText rounded-2xl shadow-xl">
 						Sign in
 					</button>
