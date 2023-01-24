@@ -30,7 +30,6 @@ const Navbar = () => {
 			<div className="hidden md:block">
 				<ThemeToggle />
 			</div>
-
 			{user?.email ? (
 				<div>
 					<Link to="/account" className="p-4">
@@ -51,12 +50,11 @@ const Navbar = () => {
 					</Link>
 				</div>
 			)}
-
 			{/* Menu Icon */}
 			<div onClick={handleNav} className="block md:hidden cursor-pointer z-10">
 				{nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
 			</div>
-			{/* Mobile Menu*/}
+			{/* Mobile Menu */}
 			<div
 				className={
 					nav

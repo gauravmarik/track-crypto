@@ -3,9 +3,9 @@ import React, { useState } from 'react'
 import CoinItem from './CoinItem'
 
 const CoinSearch = ({ coins }) => {
-	// console.log(coins)
+	console.log(coins)
 
-	// const [searchText, setSearchText] = useState('')
+	const [searchText, setSearchText] = useState('')
 
 	return (
 		<div className="rounded-div my-4">
