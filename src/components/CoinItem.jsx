@@ -51,11 +51,11 @@ const CoinItem = ({ coin }) => {
 			<td>
 				{coin.price_change_percentage_24h > 0 ? (
 					<p className="text-green-600">
-						{coin.price_change_percentage_24h.toFixed(2)}%
+						{coin.price_change_percentage_24h?.toFixed(2)}%
 					</p>
 				) : (
 					<p className="text-red-600">
-						{coin.price_change_percentage_24h.toFixed(2)}%
+						{coin.price_change_percentage_24h?.toFixed(2)}%
 					</p>
 				)}
 			</td>
